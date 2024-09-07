@@ -73,9 +73,10 @@ public class Main {
                                         System.out.println("Тask9 ");
                                         int deposit = 29000;
                                         int totalDeposit = 0;
-                                        for (int i = 0; i <= 12; i++) {
-                                            totalDeposit = totalDeposit + totalDeposit / 100;
-                                            totalDeposit += totalDeposit + deposit;
+                                        for (int i = 1; i <= 12; i++) {
+                                            totalDeposit += deposit;
+                                            totalDeposit += totalDeposit/100;
+
                                             System.out.println("Месяц " + i + ", сумма накоплений равна " + totalDeposit + " рублей");
                                         }
                                         ;
