@@ -50,7 +50,7 @@ public class Main {
                                 }
                                 {
                                     System.out.println("Тask7");
-                                    for (int i = 1; i <= 512 && i >= 1; i *= 2) {
+                                    for (int i = 1; i <= 512; i *= 2) {
                                         System.out.println(i);
                                     }
                                 }
@@ -87,7 +87,7 @@ public class Main {
                                             System.out.println("Тask10");
                                             {
                                                 int n = 2;
-                                                for (int k = 2; k <= 10; k++) {
+                                                for (int k = 1; k <= 10; k++) {
                                                     System.out.println(n + " * " + k + " = " + (n * k));
                                                 }
                                             }
